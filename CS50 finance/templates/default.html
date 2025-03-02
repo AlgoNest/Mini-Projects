@@ -1,0 +1,56 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Portfolio
+
+{% endblock %}
+
+{% block main %}
+
+
+    <table class='table table-striped'>
+        <thead>
+            <tr>
+                <th class='text-start'>Company</th>
+                <th class='text-end'>Shares</th>
+                <th class='text-end'>Price</th>
+                <th class='text-end'>TOTAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for user in stocks %}
+                <tr>
+                    <td class='text-start'>{{ user['symbol'] }} </td>
+                    <td class='text-end'>{{ user['total_shares'] }} </td>
+                    <td class='text-end'>${{ user['price'] }} </td>
+                    <td class='text-end'>${{ user['price'] * user['total_shares']}} </td>
+
+                </tr>
+            {% endfor %}
+
+
+
+        </tbody>
+        <tfoot>
+            <tr>
+                {% if user_cash != None %}
+                <td class='border-0 fw-bold text-end' colspan=3>CASH</td>
+                <td class='border-0 text-end'>{{ user_cash | usd }}</td>
+                {% endif %}
+            </tr>
+            <tr>
+                {% if total_value != None %}
+                <td class='border-0 fw-bold text-end' colspan=3>TOTAL</td>
+
+                <td class='border-0 w-bold text-end'>{{ total_value }}</td>
+                {% endif %}
+            </tr>
+        </tfoot>
+    </table>
+    <footer style='text-align: center; font-size: 13px; color: grey; padding-top: 150px;'>
+        Note: Stock price is not real it's from cs50 api for educational purpose.Price will updated with change in cs50 api
+    </footer>
+
+
+
+{% endblock %}
