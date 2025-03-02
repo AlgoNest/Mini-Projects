@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block title %}
+
+    History
+
+{% endblock %}
+
+{% block main %}
+
+    <table class='table table-striped'>
+        <thead>
+            <tr>
+                <th class='text-start fw-bold'>Company</th>
+                <th class='text-end fw-bold'>Share</th>
+                <th class='text-end fw-bold'>Price</th>
+                <th class='text-end fw-bold'>Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for history in historys %}
+                <tr>
+                    <td class='text-start'>{{ history['company'] }} ({{ history['symbol'] }})</td>
+                    <td class='text-end'> {{ history['shares'] }} </td>
+                    <td class='text-end'> ${{ history['price'] }} </td>
+                    <td class='text-end'> {{ history['timestamp'] }} </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+
+
+{% endblock %}
