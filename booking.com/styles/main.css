@@ -1,0 +1,446 @@
+.head-background {
+    background-color: rgb(0, 59, 149);
+    width: 1260px;
+    font-family: Arial;
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+    border-radius: 6px;
+
+}
+.booking-com {
+    margin-top: 0px;
+    padding-top: 18px;
+    margin-left: 18px;
+    font-weight: bold;
+    font-size: 22px;
+    display: inline-block;
+}
+.head-first-head {
+    display: inline-block;
+}
+
+.stays-button {
+    display: inline-block;
+    background-color: rgb(226 219 219 / 41%);
+    border-color: white;
+    border: white;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-left:24px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+
+}
+.sign-in-button {
+    background-color: rgb(0, 59, 149);
+    display: inline-block;
+    border-color: white;
+    border: white;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-left: 850px;
+    margin-right: 5px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+
+}
+.register-button {
+    display: inline-block;
+    background-color: rgb(0, 59, 149);
+    border-color: white;
+    border: white;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-left:0px;
+    margin-right: 50px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+
+}
+.others-button {
+    display: inline-block;
+    background-color: rgb(0, 59, 149);
+    border-color: white;
+    border: white;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    border-radius: 20px;
+    margin-left:10px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.register-button:hover,
+.sign-in-button:hover,
+.others-button:hover {
+    background-color: rgb(226 219 219 / 41%);
+}
+.head-main-heading {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-weight: bold;
+    padding-right: 220px;
+    padding-left: 18px;
+    padding-top: 120px;
+    margin-bottom: 0px;
+
+}
+.head-sub-heading {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding-left: 18px;
+    margin-top: 10px;
+}
+.search-bars {
+    background-color: rgb(234, 183, 30);
+    display: inline-block;
+    font-family: Arial;
+    margin-left: 200px;
+    margin-right: 0px;
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 7px;
+}
+.three-input-button {
+    margin: 0px;
+    border-radius: 5px;
+    padding-right: 80px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.search-button {
+    background-color: rgb(30, 124, 199);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    border-color: rgb(24, 98, 157);
+    border-style: bold;
+    margin: 0px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 13px;
+    padding-bottom: 15px;
+    transition: background-color 0.25s;
+}
+.search-button:hover {
+    background-color: rgb(24, 98, 157);
+}
+.offers-heading {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: Verdana;
+}
+.offers-sub-heading {
+    margin-top: 6px;
+    color: rgb(107, 100, 100);
+    font-size: 15px;
+    font-family: Verdana;
+}
+.saving-block-1 {
+    font-family: Verdana;
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 6px;
+    transition: box-shadow 0.25s, width 0.25s;
+}
+.saving-block-2 {
+    font-family: Verdana;
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 40px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 6px;
+    transition: box-shadow 0.25s, width 0.25s;
+}
+.saving-block-1:hover,
+.saving-block-2:hover {
+    width: 351px;
+    box-shadow: 1px 18px 16px 6px rgba(0, 0, 0, 0.25);
+}
+.saving-block-heading {
+    font-weight: bold;
+    font-size: 22px;
+}
+.saving-block-sub-heading {
+    font-size: 14px;
+}
+.saving-block-button {
+    background-color: rgb(20, 133, 223);
+    color: rgb(255, 255, 255);
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 12px;
+    padding-left: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.saving-block-button:hover {
+    background-color: rgb(0, 59, 149);
+}
+
+.destination-block {
+    margin-top: 100px;
+    font-family: Verdana;
+}
+
+.destination-block-heading {
+    font-weight: bold;
+    font-size: 20px;
+}
+.destination-block-sub-heading {
+    font-size: 15px;
+    color: rgb(107, 100, 100);
+}
+.destination-block-images {
+    display: inline-block;
+}
+.destination-sub-block-images {
+    display: inline-block;
+}
+.city-image {
+    width: 300px;
+    height: 200px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 4px;
+    margin-bottom: 4px;
+    display: inline-block;
+    transition: width 0.45s, height 0.45s;
+}
+.hotel-block {
+    width: 270px;
+    height: 330px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    border-radius: 6px;
+    display: inline-block;
+    vertical-align: top;
+    transition: box-shadow 0.25s, width 0.25s;
+}
+.hotel-block:hover {
+    box-shadow: 1px 6px 16px 2px rgba(0, 0, 0, 0.15);
+    width: 271px;
+}
+
+.hotel-block-images {
+    width: 270px;
+    border-radius: 6px;
+}
+.hotel-block-hotel-name {
+    background-color: rgb(63, 81, 181);
+    color: rgb(255, 255, 255);
+    font-size: 8px;
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 4px;
+    margin-left: 4px;
+
+}
+.hotel-block-heading {
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    margin-top: 5px;
+    margin-left: 4px;
+}
+.hotel-block-location {
+    font-size: 12px;
+    color: rgb(107, 100, 100);
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 4px;
+}
+.hotel-block-rating {
+    background-color: rgb(63, 81, 181);
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-left: 4px;
+}
+.hotel-block-reviews {
+    font-size: 11px;
+    margin-left: 12px;
+    margin-left: 4px;
+}
+.hotel-sub-block-for-early-deal {
+    display: block;
+}
+.hotel-block-early-deal {
+    background-color: green;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 4px;
+    padding-right: 1px;
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 4px;
+}
+.hotel-block-price {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 100px;
+    margin-left: 4px;
+}
+.hotel-block-stay-time {
+    font-size: 12px;
+    margin-left: 130px;
+    margin-bottom: 100px;
+}
+.travel-more-heading {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.sign-regiser-block {
+    display: inline-block;
+    font-family: Verdana;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 100px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+
+}
+.sign-regiser-block-heading {
+    font-size: 18px;
+    font-weight: bold;
+}
+.sign-regiser-block-sub-heading {
+    font-size: 13px;
+
+}
+.sign-regiser-block-sign-in {
+    display: inline-block;
+    background-color: rgb(28, 124, 201);
+    color: rgb(255, 255, 255);
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 6px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 5px;
+    transition: background-color 0.15s
+}
+.sign-regiser-block-sign-in:hover {
+    background-color: rgb(0, 59, 149);
+}
+.sign-regiser-block-register {
+    display: inline-block;
+    background-color: white;
+    color: rgb(0, 108, 228);
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 6px;
+    border-color: rgb(28, 124, 201);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 5px;
+    transition: background-color 0.25s;
+}
+.sign-regiser-block-register:hover {
+    background-color: rgb(158 158 158 / 22%);
+
+}
+.more-destination-heading {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.more-destination-block {
+    margin-top: 30px;
+    margin-left: 250px;
+    background-color: rgb(158 158 158 / 22%);
+    width: 800px;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+
+
+}
+.more-destination-sub-block {
+    font-size: 14px;
+    font-family: Verdana;
+    display: inline-block;
+    margin-left: 20px;
+    text-align: center;
+    align-items: center;
+}
+.hyper-link {
+    text-decoration: none;
+    display: block;
+    color: black;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.hyper-link:hover {
+    text-decoration: underline;
+    color: blue;
+}
