@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Verdana;
+    background-image: url("https://my.alfred.edu/zoom/_images/powell-thumbnail.jpg");
+}
+body h2 {
+    text-align: center;
+    margin-top: 180px;
+}
+div[class="mb-3"] {
+    margin-top: 50px;
+}
+input[class="form-control mx-auto w-auto"] {
+    margin: 20px;
+    padding: 10px 15px;
+    display: inline-block;
+}
+input[class="btn btn-success"] {
+    padding: 9px 13px;
+    margin-top: 10px;
+}
+form[action="/"] div {
+    text-align: center;
+}
