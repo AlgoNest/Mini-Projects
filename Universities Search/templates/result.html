@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <title>Result</title>
+        <link rel="stylesheet" href="result.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    </head>
+    <body>
+        {% if result %}
+        <h3 style="margin: 10px;">See List...</h3>
+            {% for text in result %}
+
+                <div class="card" style="margin: 20px;">
+                    <div class="col-lg-6 col-sm-12" style="margin: 20px; display: inline-block;">
+                            <label>Univerity Name: </label> {{ text.name }} <br>
+                            <label>Country Name: </label> {{ text.country }} <br>
+                            <label>Country Code: </label> {{ text.alpha_two_code }} <br>
+                            <label> Domain: </label> {{ text.domains[0] }} <br>
+                            <label> Web Portal: </label> {{ text.web_pages[0] }} <br>
+                            <a style="margin: 10px;" href="{{ text.web_pages[0] }}" target="_blank" class="btn btn-primary">Visit {{ text.name }}</a>
+                    </div>
+                </div>
+
+            {% endfor %}
+       {% else %}
+                <h4>Nothing Found</h4>
+
+       {% endif %}
+    </body>
+</html>
